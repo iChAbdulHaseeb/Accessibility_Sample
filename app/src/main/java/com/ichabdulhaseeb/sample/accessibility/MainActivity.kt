@@ -12,11 +12,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         if(!checkAccessibilityPermission()){
-            Toast.makeText(this@MainActivity, "Permission denied", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this@MainActivity, "Permission denied", Toast.LENGTH_SHORT).show()
         }
     }
 
-    fun checkAccessibilityPermission(): Boolean {
+    private fun checkAccessibilityPermission(): Boolean {
         var accessEnabled = 0
         try {
             accessEnabled =

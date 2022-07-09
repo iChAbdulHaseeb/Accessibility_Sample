@@ -92,7 +92,7 @@ class MyAccessibilityService : AccessibilityService() {
     }
 
     companion object{
-        var TAG = "asccessibility_service_log_tag"
+        var TAG = "accessibility_service_log_tag"
     }
 
 }
