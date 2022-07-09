@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Accessibility Sample</string>
+    <string name="accessibility_service_label">Accessibility Service</string>
+    <string name="accessibility_service_description">Demo app that will grab all the text showing on the screen.</string>
+</resources>
